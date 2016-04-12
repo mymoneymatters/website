@@ -42,3 +42,15 @@
  ADD COLUMN `follow_up1_sent` INTEGER UNSIGNED NOT NULL DEFAULT 0 AFTER `paid`,
  ADD COLUMN `follow_up2_sent` INTEGER UNSIGNED NOT NULL DEFAULT 0 AFTER `follow_up1_sent`;
  made by do_action('cdbt_page_cdbt_tables'), call_user_func_array, CustomDataBaseTables\Lib\CdbtAdmin->admin_page_render, CustomDataBaseTables\Lib\CdbtAdmin->admin_controller, CustomDataBaseTables\Lib\CdbtAdmin->do_cdbt_tables_modify_table, CustomDataBaseTables\Lib\CdbtDB->run_query
+[12-Apr-2016 07:52:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/mymonnjq/public_html/wp-content/plugins/custom-database-tables/templates/admin/cdbt_tables.php on line 928
+[12-Apr-2016 07:52:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/mymonnjq/public_html/wp-content/plugins/custom-database-tables/templates/admin/cdbt_tables.php on line 934
+[12-Apr-2016 07:52:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/mymonnjq/public_html/wp-content/plugins/custom-database-tables/templates/admin/cdbt_tables.php on line 962
+[12-Apr-2016 07:52:05 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/mymonnjq/public_html/wp-content/plugins/custom-database-tables/templates/admin/cdbt_tables.php on line 1062
+[12-Apr-2016 07:52:05 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/mymonnjq/public_html/wp-content/plugins/custom-database-tables/templates/admin/cdbt_tables.php on line 1062
+[12-Apr-2016 07:52:05 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/mymonnjq/public_html/wp-content/plugins/custom-database-tables/templates/admin/cdbt_tables.php on line 1063
+[12-Apr-2016 07:52:05 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/mymonnjq/public_html/wp-content/plugins/custom-database-tables/templates/admin/cdbt_tables.php on line 1063
+[12-Apr-2016 07:52:05 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/mymonnjq/public_html/wp-content/plugins/custom-database-tables/templates/admin/cdbt_tables.php on line 1064
+[12-Apr-2016 07:52:05 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/mymonnjq/public_html/wp-content/plugins/custom-database-tables/templates/admin/cdbt_tables.php on line 1064
+[12-Apr-2016 07:52:05 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/mymonnjq/public_html/wp-content/plugins/custom-database-tables/templates/admin/cdbt_tables.php on line 1071
+[12-Apr-2016 07:52:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/mymonnjq/public_html/wp-content/plugins/custom-database-tables/templates/admin/cdbt_tables.php on line 1071
+[12-Apr-2016 07:53:04 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/mymonnjq/public_html/wp-content/plugins/custom-database-tables/lib/utils.php:331) in /home/mymonnjq/public_html/wp-content/plugins/custom-database-tables/lib/admin.php on line 215
