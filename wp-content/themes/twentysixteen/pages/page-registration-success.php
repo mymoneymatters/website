@@ -10,7 +10,7 @@
 
 	if ($wpdb->get_results("SELECT * FROM mmm_registration WHERE admin_notified=0")) {
 
-		$to = 'mymoneymatters@gmail.com';
+		$to = 'mymoneyseminar@gmail.com';
 		$subject = 'New Registration';
 		$message = 'Hi, someone has just registered.';
 		$headers = 'From: My Money Matters <info@mymoneymatters.co.za>' . "\r\n" . 'Reply-To: info@mymoneymatters.co.za';
