@@ -1,13 +1,13 @@
 <?php
-/**
- * The template for displaying the header
- *
- * Displays all of the head element and everything up until the "site-content" div.
- *
- * @package WordPress
- * @subpackage Twenty_Sixteen
- * @since Twenty Sixteen 1.0
- */
+	/**
+	 * The template for displaying the header
+	 *
+	 * Displays all of the head element and everything up until the "site-content" div.
+	 *
+	 * @package WordPress
+	 * @subpackage Twenty_Sixteen
+	 * @since Twenty Sixteen 1.0
+	 */
 
 ?>
 
@@ -38,7 +38,11 @@
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
-<!--					<li class="--><?php //echo (basename(get_permalink()) === 'registration' ? 'active' : ''); ?><!--"><a href="registration">Registration<span class="sr-only">(current)</span></a></li>-->
+					<!--					<li class="-->
+					<?php //echo (basename(get_permalink()) === 'registration' ? 'active' : ''); ?><!--"><a href="registration">Registration<span class="sr-only">(current)</span></a></li>-->
+					<li class="<?php echo(basename(get_permalink()) === 'registration' ? 'active' : ''); ?>">
+						<a href="about-us">About Us</a>
+					</li>
 				</ul>
 
 			</div><!-- /.navbar-collapse -->
