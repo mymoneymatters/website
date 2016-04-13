@@ -142,9 +142,10 @@
 				<h3 class="panel-title">Fees</h3>
 			</div>
 			<div class="panel-body">
-				<p>R595 per person / R1095 per couple</p>
-				<p>Early bird registration (before 20 April 2016)</p>
-				<p>R395 per person / R695 per couple</p>
+				<p>Standard Registration:</p>
+				<p><i>R595 per person / R1095 per couple</i></p>
+				<p>Early Bird Registration (before 20 April 2016):</p>
+				<p><i>R395 per person / R695 per couple</i></p>
 			</div>
 		</div>
 	</div>
@@ -401,16 +402,7 @@
 	</div>
 
 	<div class="col-md-4">
-
-		<div class="panel panel-info">
-			<div class="panel-heading">
-				<h3 class="panel-title">Quote of the Month</h3>
-			</div>
-			<div class="panel-body">
-				<i>"If you cannot do great things, do small things in a great way."</i>
-			</div>
-		</div>
-
+		<div class="fb-page" data-href="https://www.facebook.com/My-Money-Matters-465152716989695/" data-tabs="timeline" data-height="600" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"></div>
 	</div>
 </div>
 
@@ -426,6 +418,17 @@
 </div>
 
 <script src='https://www.google.com/recaptcha/api.js'></script>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id)
+	{
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s);
+		js.id = id;
+		js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.6";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
 
 <?php get_footer(); ?>
 

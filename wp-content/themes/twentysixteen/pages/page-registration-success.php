@@ -48,9 +48,10 @@
 					<h3 class="panel-title">Fees</h3>
 				</div>
 				<div class="panel-body">
-					<p>R595 per person / R1095 per couple</p>
-					<p>Early bird registration (before 20 April 2016)</p>
-					<p>R395 per person / R695 per couple</p>
+					<p>Standard Registration:</p>
+					<p><i>R595 per person / R1095 per couple</i></p>
+					<p>Early Bird Registration (before 20 April 2016):</p>
+					<p><i>R395 per person / R695 per couple</i></p>
 				</div>
 			</div>
 		</div>
