@@ -17,7 +17,8 @@
  *
  * @package WordPress
  */
-
+	define('WP_HOME','http://www.mymoneymatters.co.za');
+	define('WP_SITEURL','http://www.mymoneymatters.co.za');
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define('REVISR_GIT_PATH', ''); // Added by Revisr
