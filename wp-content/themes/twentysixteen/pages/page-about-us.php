@@ -8,8 +8,12 @@
 
 <?php get_header(); ?>
 
+<div class="jumbotron" style="background-color: #3f7fbf;">
+	<img src="<?php echo includes_url("/images/logo2.png"); ?>" class="img-rounded img-responsive center-block"/>
+</div>
+
 <div class="page-header" xmlns="http://www.w3.org/1999/html">
-	<h1>About Us</h1>
+	<h1>Welcome</h1>
 </div>
 
 <div class="row">
@@ -27,6 +31,8 @@
 			financial principles, common money-myths, effective budgeting tools and simple steps towards reaching your
 			financial goals – regardless of your current financial situation.</p>
 
+		<p>To register for our next seminar click <a href="registration" target="_blank">here</a>.</p>
+
 		<br/>
 
 		<p><b>My Money Matters seminar will give you:</b></p>
@@ -40,7 +46,7 @@
 
 			<li>Effective budgeting principles and methods</li>
 
-			<li>Financial peace</li>
+<!--			<li>Financial peace</li>-->
 		</ul>
 
 		<p><b>You’ll say goodbye to:</b></p>

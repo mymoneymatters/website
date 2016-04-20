@@ -17,7 +17,7 @@
 
 <?php
 	if (!is_user_logged_in()) {
-		header("Location: /wp-admin");
+		header("Location: /wp-login.php?redirect_to=" . urlencode("/management"));
 		die();
 	}
 ?>

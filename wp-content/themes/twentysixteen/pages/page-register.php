@@ -102,54 +102,8 @@
 	<div class="alert alert-danger" role="alert"><strong>Whoops!</strong> Please enter all required fields.</div>
 <?php endif ?>
 
-<div class="jumbotron" style="background-color: #3f7fbf;">
-	<img src="<?php echo includes_url("/images/logo2.png"); ?>" class="img-rounded img-responsive center-block"/>
-</div>
-
-<div class="row">
-	<div class="col-md-4">
-		<div class="panel panel-default">
-			<div class="panel-heading">
-				<h3 class="panel-title">Next Seminar</h3>
-			</div>
-			<div class="panel-body">
-				<p>Saturday, 28 May 2016</p>
-				<p>Oosterlig NG Church</p>
-				<p>08h00 - 16h00</p>
-			</div>
-		</div>
-	</div>
-
-	<div class="col-md-4">
-		<div class="panel panel-default">
-			<div class="panel-heading">
-				<h3 class="panel-title">Banking Details</h3>
-			</div>
-			<div class="panel-body">
-				<p>Standard Bank 271531657</p>
-				<p>Branch: Centurion (012645)</p>
-				<p>Send proof of payment to:
-					<a href="mailto:mymoneyseminar@gmail.com?Subject=Proof of Payment" target="_top">mymoneyseminar@gmail.com</a>
-				</p>
-				<p>NB: Please use "MMM May " + your name & surname as reference</p>
-			</div>
-		</div>
-	</div>
-
-	<div class="col-md-4">
-		<div class="panel panel-default">
-			<div class="panel-heading">
-				<h3 class="panel-title">Fees</h3>
-			</div>
-			<div class="panel-body">
-				<p>Standard Registration:</p>
-				<p><i>R595 per person / R1095 per couple</i></p>
-				<p>Early Bird Registration (before 20 April 2016):</p>
-				<p><i>R395 per person / R695 per couple</i></p>
-			</div>
-		</div>
-	</div>
-
+<div class="page-header" xmlns="http://www.w3.org/1999/html">
+	<h1>Registration</h1>
 </div>
 
 <div class="row">
@@ -158,7 +112,7 @@
 		<div class="panel panel-primary">
 
 			<div class="panel-heading">
-				<h3 class="panel-title">Registration Form</h3>
+				<h3 class="panel-title">Registration Form (28 May 2016 Seminar)</h3>
 			</div>
 
 			<div class="panel-body">
@@ -403,17 +357,6 @@
 
 	<div class="col-md-4">
 		<div class="fb-page" data-href="https://www.facebook.com/My-Money-Matters-465152716989695/" data-tabs="timeline" data-height="600" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"></div>
-	</div>
-</div>
-
-<div class="panel panel-info">
-	<div class="panel-heading">
-		<h3 class="panel-title">Contact Us</h3>
-	</div>
-
-	<div class="panel-body">
-		<p><strong>Email:</strong> <a href="mailto:mymoneyseminar@gmail.com?Subject=Query" target="_top">mymoneyseminar@gmail.com</a>
-		</p>
 	</div>
 </div>
 

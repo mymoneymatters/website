@@ -31,6 +31,19 @@
 		<div class="col-md-4">
 			<div class="panel panel-default">
 				<div class="panel-heading">
+					<h3 class="panel-title">Seminar Details</h3>
+				</div>
+				<div class="panel-body">
+					<p>Saturday, 28 May 2016</p>
+					<p>Oosterlig NG Church</p>
+					<p>08h00 - 16h00</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-4">
+			<div class="panel panel-default">
+				<div class="panel-heading">
 					<h3 class="panel-title">Banking Details</h3>
 				</div>
 				<div class="panel-body">
