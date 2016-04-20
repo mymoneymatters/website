@@ -13,7 +13,10 @@
 		$to = 'mymoneyseminar@gmail.com';
 		$subject = 'New Registration';
 		$message = 'Hi, someone has just registered.';
-		$headers = 'From: My Money Matters <info@mymoneymatters.co.za>' . "\r\n" . 'Reply-To: info@mymoneymatters.co.za';
+
+		$headers = 'From: My Money Matters <info@mymoneymatters.co.za>\r\n';
+		$headers .= 'Reply-To: info@mymoneymatters.co.za\r\n';
+		$headers .= 'Bcc: rnsnkl@gmail.com\r\n';
 
 		mail($to, $subject, $message, $headers);
 
