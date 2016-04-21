@@ -46,7 +46,7 @@
 
 			<li>Effective budgeting principles and methods</li>
 
-<!--			<li>Financial peace</li>-->
+			<!--			<li>Financial peace</li>-->
 		</ul>
 
 		<p><b>You’ll say goodbye to:</b></p>
@@ -76,25 +76,6 @@
 			<li>Nkandla</li>
 		</ul>
 
-
-		<!--		<p>What you can expect:</p>-->
-		<!---->
-		<!--		<ul>-->
-		<!--			<li>A revolutionary approach to money and personal finance</li>-->
-		<!--			<li>To hear things that no one has ever taught you about money</li>-->
-		<!--			<li>To get a clear plan for wherever you find yourself financially</li>-->
-		<!--			<li>Some of the best content on your finances packaged in a understandable, simple way</li>-->
-		<!--			<li>To learn how to manage your flow of money not only in a logical way, but in a healthy way</li>-->
-		<!--		</ul>-->
-		<!--		-->
-		<!--		<p>What not to expect:</p>-->
-		<!---->
-		<!--		<ul>-->
-		<!--			<li>Information on specific financial products like policies or investments</li>-->
-		<!--			<li>Conventional information on economic topics</li>-->
-		<!--			<li>Get rich quick schemes</li>-->
-		<!--		</ul>-->
-
 		<br/>
 
 		<p><b>Our Team:</b></p>
@@ -108,18 +89,6 @@
 	</div>
 
 </div>
-
-<div id="fb-root"></div>
-<script>(function(d, s, id)
-	{
-		var js, fjs = d.getElementsByTagName(s)[0];
-		if (d.getElementById(id)) return;
-		js = d.createElement(s);
-		js.id = id;
-		js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.6";
-		fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));</script>
-
 
 <?php get_footer(); ?>
 

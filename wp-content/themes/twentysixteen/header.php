@@ -1,16 +1,3 @@
-<?php
-	/**
-	 * The template for displaying the header
-	 *
-	 * Displays all of the head element and everything up until the "site-content" div.
-	 *
-	 * @package WordPress
-	 * @subpackage Twenty_Sixteen
-	 * @since Twenty Sixteen 1.0
-	 */
-
-?>
-
 <!DOCTYPE html>
 
 <html>
@@ -21,6 +8,7 @@
 		<?php if (basename(get_permalink()) === 'registration'): echo 'MyMoneyMatters - Registration'; endif ?>
 		<?php if (basename(get_permalink()) === 'testimonials'): echo 'MyMoneyMatters - Testimonials'; endif ?>
 		<?php if (basename(get_permalink()) === 'contact-us'): echo 'MyMoneyMatters - Contact Us'; endif ?>
+		<?php if (basename(get_permalink()) === 'management'): echo 'MyMoneyMatters - Dashboard'; endif ?>
 	</title>
 
 	<!--Bootstrap Dependencies-->
