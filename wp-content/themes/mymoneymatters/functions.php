@@ -29,7 +29,7 @@
  * Twenty Sixteen only works in WordPress 4.4 or later.
  */
 if ( version_compare( $GLOBALS['wp_version'], '4.4-alpha', '<' ) ) {
-	require get_template_directory() . '/inc/back-compat.php';
+	//require get_template_directory() . '/inc/back-compat.php';
 }
 
 if ( ! function_exists( 'twentysixteen_setup' ) ) :
@@ -336,12 +336,12 @@ function twentysixteen_hex2rgb( $color ) {
 /**
  * Custom template tags for this theme.
  */
-require get_template_directory() . '/inc/template-tags.php';
+//require get_template_directory() . '/inc/template-tags.php';
 
 /**
  * Customizer additions.
  */
-require get_template_directory() . '/inc/customizer.php';
+//require get_template_directory() . '/inc/customizer.php';
 
 /**
  * Add custom image sizes attribute to enhance responsive image functionality
